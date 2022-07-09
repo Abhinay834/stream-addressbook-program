@@ -1,0 +1,9 @@
+  public void addMultipleContacts() {
+        System.out.println("Enter number of contacts added to the AddressBook");
+        int num = scanner.nextInt();
+        for (int i = 0; i < num; i++) {
+            addContact();
+            System.out.println(i + 1 + "-->Contact added successfully");
+        }
+    }
+}
